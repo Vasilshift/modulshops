@@ -29,7 +29,7 @@ public class OneShopMapper implements RowMapper<Shop> {
 
         Shop oneShop = new Shop();
         oneShop.setId(rs.getLong("id"));
-        oneShop.setShopName(rs.getString("shopName"));
+        oneShop.setShop_name(rs.getString("shop_name"));
         oneShop.setProductList(productList);
 
         return oneShop;
